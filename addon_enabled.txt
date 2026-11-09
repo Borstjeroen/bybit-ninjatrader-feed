@@ -1,0 +1,15 @@
+# BybitHistoryAddOn settings (the existence of this file = AddOn active; removing/renaming it = paused)
+# This is a TEMPLATE. setup.ps1 copies it to machines\<computername>\addon_enabled.txt. Re-read every cycle; see README.md for each setting.
+minuteDays=30
+minuteDaysAll=14
+dailyDays=400
+refreshMinutes=5
+refreshMinutesAll=60
+refreshWindowMinutes=120
+universe=all
+# 0 = all ~820 coins of the history layer; N = only the first N coins (for a careful test)
+universeLimit=0
+budgetSeconds=240
+# symbols=A,B  (optional filter, empty = no filter)
+# The AddOn only works while the bridge is running (bridge closed = AddOn pauses by itself)
+followBridge=true

@@ -1,0 +1,12 @@
+# Live coins for the BybitBridge, one per line:  BYBITSYMBOL[,NT_INSTRUMENT_NAME]   (# = comment)
+# This is a TEMPLATE. setup.ps1 copies it to machines\<computername>\symbols.txt, which is the file you edit.
+BTCUSDT
+ETHUSDT
+SOLUSDT
+XRPUSDT
+HYPEUSDT
+NEARUSDT
+BCHUSDT
+ADAUSDT
+ETCUSDT
+ZRXUSDT

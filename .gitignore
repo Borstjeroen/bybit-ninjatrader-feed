@@ -1,0 +1,11 @@
+# per-PC settings, state and logs
+machines/
+
+# built / copied binaries (build_bridge.ps1 creates them; NinjaTrader.Client.dll belongs to NinjaTrader and must not be redistributed)
+BybitBridge.exe
+NinjaTrader.Client.dll
+
+# local backups and exports
+backup/
+*.sqlite
+*.ncd
