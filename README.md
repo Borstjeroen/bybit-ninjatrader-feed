@@ -1,6 +1,6 @@
-# Bybit data feed for NinjaTrader 8
+# Bybit data feed (connector) for NinjaTrader 8
 
-Brings **Bybit USDT perpetuals** into NinjaTrader 8 as charting data: historical candles plus live ticks, for ~820 instruments, using NinjaTrader's built-in **External** connection.
+A free **Bybit data feed for NinjaTrader 8**: brings **Bybit USDT perpetuals** (crypto futures) into NinjaTrader as charting data, with historical candles plus live ticks, for ~820 instruments, using NinjaTrader's built-in **External** connection. If you were looking for a "Bybit connector" or "crypto data for NinjaTrader", this is it (market data only, no order routing).
 
 NinjaTrader 8 has no Bybit connection of its own and no public way to add a custom one. This project is the workaround that worked for me: a small bridge pushes live ticks through NinjaTrader's Automated Trading Interface (ATI), and an AddOn fills NinjaTrader's own database with Bybit history.
 
